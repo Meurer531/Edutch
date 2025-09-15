@@ -40,7 +40,7 @@ body::before {
     position: relative;
 }
 
-.container__conteudo {
+.container.conteudo {
     display: flex;
     align-items: center;
     position: absolute;
