@@ -40,21 +40,6 @@ body::before {
     position: relative;
 }
 
-.container__conteudo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%; 
-    width: 100%; 
-}
-
-.container__informacoes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .container__botao {
     border-radius: 16px;
     background: #1875E8;
@@ -66,12 +51,24 @@ body::before {
     margin-top: 16px;
 }
 
+.container__conteudo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
 .container__texto {
     margin: 16px 0 16px 0;
 }
 
 .container__texto-azul {
     color: #1875E8;
+}
+
+.container__informacoes {
+    flex: 1;
+    padding: 20px;
 }
 
 h1 {
